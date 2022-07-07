@@ -1,0 +1,167 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+body {
+    max-width: 1440px;
+    margin: auto;
+}
+
+/* HEADER */
+
+.header {
+    display: flex;
+    width: 1320px;
+    padding: 40px 60px 40px 60px;
+    /* margin: 40px 70px 40px 60px; */
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.header__logo {
+    padding-right: 1086px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.header__project {
+    padding-right: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.header__info {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+/* MAIN */
+
+.main {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.main-section-girl {
+    width: 1320px;
+    height: 806px;
+}
+
+.button__play {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    left: 660px;
+    bottom: 403px;
+}
+
+.button__play__image {
+    width: 20px;
+}
+
+/* PICTURES */
+
+.main-pictures {
+    width: 1320px;
+    margin-top: 120px;
+}
+
+.h_projects {
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+    color: #000000;
+    padding-bottom: 40px;
+}
+
+.pictures {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.village {
+    margin: 0;
+}
+
+figure {
+    margin: 0;
+}
+
+.figcaption {
+    position: relative;
+    bottom: 60px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.pictures-padding-right {
+    padding-right: 40px;
+}
+
+.pictures-padding-bottom {
+    padding-bottom: 84px;
+}
+
+/* FOOTER */
+
+footer {
+    width: 1320px;
+    height: 275px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-font {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+}
+.nav-logo {
+    padding-right: 532px;
+    padding-top: 100px;
+}
+
+.passw {
+    padding-right: 184px;
+    padding-top: 100px;
+}
+
+.license {
+    padding-right: 206px;
+    padding-top: 100px;
+}
+
+.social {
+    padding-top: 100px;
+}
+
+.p-margin {
+    margin: 0;
+}
+
+
+
+
+
